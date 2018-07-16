@@ -1,0 +1,11 @@
+/home/ali/codingDojo/c#/Wall/bin/Debug/netcoreapp2.0/Wall.deps.json
+/home/ali/codingDojo/c#/Wall/bin/Debug/netcoreapp2.0/Wall.runtimeconfig.json
+/home/ali/codingDojo/c#/Wall/bin/Debug/netcoreapp2.0/Wall.runtimeconfig.dev.json
+/home/ali/codingDojo/c#/Wall/bin/Debug/netcoreapp2.0/Wall.dll
+/home/ali/codingDojo/c#/Wall/bin/Debug/netcoreapp2.0/Wall.pdb
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.csprojResolveAssemblyReference.cache
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.csproj.CoreCompileInputs.cache
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.AssemblyInfoInputs.cache
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.AssemblyInfo.cs
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.dll
+/home/ali/codingDojo/c#/Wall/obj/Debug/netcoreapp2.0/Wall.pdb

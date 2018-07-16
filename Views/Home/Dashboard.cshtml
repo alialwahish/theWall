@@ -1,0 +1,49 @@
+@using Wall.Models
+@model User
+
+<h1>Welcome @ViewBag.user.First_Name @ViewBag.user.Last_Name</h1>
+<a href="/" >LogOff</a>
+
+
+<h2>Post a message</h2>
+<form asp-action="addMsg" asp-controller="Home" method="POST">
+
+    <input type="text" name="newMsg" style="  width: 500px;
+    "><br>
+    
+    <input type="submit" value="Post a message">
+
+</form>
+    <br><br>
+
+
+@foreach(var usr in ViewBag.allUsers){
+   
+
+    @foreach(var msg in usr.Msgs){
+        
+        <p>@usr.First_Name - @msg.Created_At.ToString("MM/dd/yyyy")</p>
+        <p>@msg.Messages_Text</p>
+        @foreach(var cmnt in msg.comments){
+            <p>@cmnt.UserName @cmnt.Created_At.ToString("MM/dd/yyyy") <br> @cmnt.Comment_Text </p>
+          
+        }
+
+
+
+       <h4>Post a comment</h4>
+    <form asp-action="addComnt" asp-controller="Home" method="POST">
+    <input name="msgId" value="@msg.MessagesId" hidden>
+
+    <input type="text" name="newComnt" style="  width: 300px;
+    "><br>
+    
+    <input type="submit" value="Comment">
+
+    </form> 
+    <br><br>
+    }
+}
+
+
+
